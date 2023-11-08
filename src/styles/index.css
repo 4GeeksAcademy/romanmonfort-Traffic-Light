@@ -29,6 +29,12 @@ body{
     border-radius: 50%;
 }
 
+.purpura{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(142, 2, 128));
+    border-radius: 50%;
+}
 
 .rojo.activo{
     -webkit-box-shadow:0px 0px 105px 45px rgba(255,46,46,0.9);
@@ -49,4 +55,11 @@ box-shadow: 0px 0px 105px 45px rgba(241,255,46,0.9);
     -webkit-box-shadow:0px 0px 105px 45px rgba(46,255,60,0.9);
 -moz-box-shadow: 0px 0px 105px 45px rgba(46,255,60,0.9);
 box-shadow: 0px 0px 105px 45px rgba(46,255,60,0.9);
+}
+
+.purpura.activo{
+    background-color: rgb(205, 1, 236);
+    -webkit-box-shadow:0px 0px 105px 45px rgba(255, 46, 203, 0.9);
+-moz-box-shadow: 0px 0px 105px 45px  rgba(255, 46, 203, 0.9);
+box-shadow: 0px 0px 105px 45px  rgba(255, 46, 203, 0.9);
 }
