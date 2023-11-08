@@ -1,12 +1,52 @@
 
-/* 
+body{
+    background-image: url(https://images.unsplash.com/photo-1503658926055-f0196ef40713?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.sem{
+    background-color: black;
+}
 
-*/
+.verde{
+ height: 200px;
+ width: 200px;
+ background-color: green;
+ border-radius: 50%;
+}
+
+.amarillo{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(128, 126, 0);
+    border-radius: 50%;
+}
+
+.rojo{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(104, 0, 0);
+    border-radius: 50%;
+}
+
+
+.rojo.activo{
+    -webkit-box-shadow:0px 0px 105px 45px rgba(255,46,46,0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(255,46,46,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(255,46,46,0.9);
+    background-color: rgb(255, 0, 0);
+}
+
+.amarillo.activo{
+    background-color: rgb(255, 251, 0);
+    -webkit-box-shadow:0px 0px 105px 45px rgba(241,255,46,0.9);
+-moz-box-shadow: 0px 0px 105px 45px rgba(241,255,46,0.9);
+box-shadow: 0px 0px 105px 45px rgba(241,255,46,0.9);
+}
+
+.verde.activo{
+    background-color: rgb(59, 236, 1);
+    -webkit-box-shadow:0px 0px 105px 45px rgba(46,255,60,0.9);
+-moz-box-shadow: 0px 0px 105px 45px rgba(46,255,60,0.9);
+box-shadow: 0px 0px 105px 45px rgba(46,255,60,0.9);
+}
