@@ -39,7 +39,7 @@ const Semaforo = () => {
                 </div>
             </div>
                 <button className='col-2 btn btn-primary border me-4' onClick={() => setColor(otroColor)}>o</button>
-                <button className='col-2 btn btn-primary border me-4' onClick={() => setColor("purpura")}>Purpura!!</button>
+                {color=="purpura"?<button className='col-2 btn btn-secondary border me-4' onClick={() => setColor("rojo")}>Volver</button>:<button className='col-2 btn btn-primary border me-4' onClick={() => setColor("purpura")}>Purpura!!</button>}
         </div>
     )
 }
