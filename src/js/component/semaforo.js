@@ -11,6 +11,7 @@ const Semaforo = () => {
          if (color === "purpura") {setColor("rojo"); }
     }
 
+    //Utilice dos formas de mostrar el color,la primera para mi es la mas optima(boton rojo)
     return (
         <div className='container text-center'>
 
@@ -18,9 +19,8 @@ const Semaforo = () => {
             <div className='semaforo container row d-flex justify-content-center align-items-center'>
                 <div className='col-2  justify-content-center align-items-center sem'>
     
-                    <div className='row  d-flex'>
-                        {color == "rojo" ? <div className='col rojo activo' onClick={() => setColor("rojo")}></div> :
-                            <div className='col rojo ' onClick={() => setColor("rojo")}></div>}
+                    <div className='row  d-flex'> 
+                        <div className={color == "rojo" ? "activo rojo col": "rojo col"} onClick={() => setColor("rojo")}></div> 
                     </div>
                     <div className='row   d-flex'>
                         {color == "amarillo" ? <div className='col amarillo activo' onClick={() => setColor("amarillo")}></div> :
